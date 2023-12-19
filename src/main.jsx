@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className='app'>
       <Logo />
       <Form />
-      <PackingList items={items/>
+      <PackingList items={items} />
       <Stats />
     </div>
   </React.StrictMode>
