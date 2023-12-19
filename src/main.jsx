@@ -6,12 +6,14 @@ import PackingList from './PackingList';
 import Stats from './Stats';
 import './index.css';
 
+const [items, setItems] = useState([]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className='app'>
       <Logo />
       <Form />
-      <PackingList />
+      <PackingList items={items/>
       <Stats />
     </div>
   </React.StrictMode>
