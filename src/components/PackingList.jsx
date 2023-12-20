@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Item from './Item';
 
+// props
 export default function PackingList({
   items,
   onDeleteItem,
